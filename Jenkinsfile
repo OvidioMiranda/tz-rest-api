@@ -20,7 +20,6 @@ pipeline {
                           ]
                    }
             }
-        }
         stage('Package') {
             steps {
                 sh './gradlew clean shadowJar'
